@@ -30,7 +30,7 @@ namespace AugmentedStages
     {
       DirectorCardCategorySelection.Category basicMonsters = new DirectorCardCategorySelection.Category();
       basicMonsters.name = "Basic Monsters";
-      basicMonsters.cards = new DirectorCard[] { new DirectorCard() { spawnCard = AugmentedStages.beetle, selectionWeight = 4 }, new DirectorCard() { spawnCard = AugmentedStages.lesserWisp, selectionWeight = 4 }, new DirectorCard() { spawnCard = AugmentedStages.lemurian, selectionWeight = 4 }, new DirectorCard() { spawnCard = AugmentedStages.jellyfish, selectionWeight = 4 } };
+      basicMonsters.cards = new DirectorCard[] { new DirectorCard() { spawnCard = AugmentedStages.beetle, selectionWeight = 4 }, new DirectorCard() { spawnCard = AugmentedStages.lesserWisp, selectionWeight = 4 }, new DirectorCard() { spawnCard = AugmentedStages.lemurian, selectionWeight = 4 }, new DirectorCard() { spawnCard = AugmentedStages.jellyfish, selectionWeight = 4 }, new DirectorCard() { spawnCard = AugmentedStages.alphaConstruct, selectionWeight = 4 }, new DirectorCard() { spawnCard = AugmentedStages.hermitCrab, selectionWeight = 4 } };
       basicMonsters.selectionWeight = 4;
       DirectorCardCategorySelection.Category minibosses = new DirectorCardCategorySelection.Category();
       minibosses.name = "Minibosses";
@@ -56,7 +56,7 @@ namespace AugmentedStages
       basicMonsters.selectionWeight = 4;
       DirectorCardCategorySelection.Category minibosses = new DirectorCardCategorySelection.Category();
       minibosses.name = "Minibosses";
-      minibosses.cards = new DirectorCard[] { new DirectorCard() { spawnCard = AugmentedStages.greaterWisp, selectionWeight = 2 }, new DirectorCard() { spawnCard = AugmentedStages.golem, selectionWeight = 2 } };
+      minibosses.cards = new DirectorCard[] { new DirectorCard() { spawnCard = AugmentedStages.greaterWisp, selectionWeight = 2 }, new DirectorCard() { spawnCard = AugmentedStages.golem, selectionWeight = 2 }, new DirectorCard() { spawnCard = AugmentedStages.reaver, selectionWeight = 2 } };
       minibosses.selectionWeight = 2;
       DirectorCardCategorySelection.Category champions = new DirectorCardCategorySelection.Category();
       champions.name = "Champions";

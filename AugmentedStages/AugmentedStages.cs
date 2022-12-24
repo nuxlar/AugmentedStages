@@ -68,6 +68,8 @@ namespace AugmentedStages
     public static SpawnCard electricWorm = Addressables.LoadAssetAsync<SpawnCard>("RoR2/Base/Vulture/cscVulture.asset").WaitForCompletion();
     public static SpawnCard scav = Addressables.LoadAssetAsync<SpawnCard>("RoR2/Base/Scav/cscScav.asset").WaitForCompletion();
     public static SpawnCard jailer = Addressables.LoadAssetAsync<SpawnCard>("RoR2/DLC1/VoidJailer/cscVoidJailer.asset").WaitForCompletion();
+    public static SpawnCard reaver = Addressables.LoadAssetAsync<SpawnCard>("RoR2/Base/Nullifier/cscNullifier.asset").WaitForCompletion();
+    public static SpawnCard hermitCrab = Addressables.LoadAssetAsync<SpawnCard>("RoR2/Base/HermitCrab/cscHermitCrab.asset").WaitForCompletion();
 
     // Stage Monsters
     // Stage 1
