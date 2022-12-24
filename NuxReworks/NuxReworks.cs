@@ -10,6 +10,7 @@ namespace NuxReworks
   {
     public void Awake()
     {
+      new StageReworks().ReworkStages();
     }
   }
 }

@@ -56,6 +56,7 @@ namespace NuxReworks
     static SpawnCard xiConstruct = Addressables.LoadAssetAsync<SpawnCard>("RoR2/Base/Vulture/cscVulture.asset").WaitForCompletion();
 
     // Misc
+    static SpawnCard larva = Addressables.LoadAssetAsync<SpawnCard>("RoR2/DLC1/AcidLarva/cscAcidLarva.asset").WaitForCompletion();
     static SpawnCard gup = Addressables.LoadAssetAsync<SpawnCard>("RoR2/Base/Vulture/cscVulture.asset").WaitForCompletion();
     static SpawnCard brassContraption = Addressables.LoadAssetAsync<SpawnCard>("RoR2/Base/Vulture/cscVulture.asset").WaitForCompletion();
     static SpawnCard bighornBison = Addressables.LoadAssetAsync<SpawnCard>("RoR2/Base/Vulture/cscVulture.asset").WaitForCompletion();
@@ -115,15 +116,15 @@ namespace NuxReworks
     {
       DirectorCardCategorySelection.Category basicMonsters = new DirectorCardCategorySelection.Category();
       basicMonsters.name = "Basic Monsters";
-      basicMonsters.cards = new DirectorCard[] { new DirectorCard() { spawnCard = imp, selectionWeight = 2 }, new DirectorCard() { spawnCard = lemurian, selectionWeight = 2 }, new DirectorCard() { spawnCard = vulture, selectionWeight = 1 } };
+      basicMonsters.cards = new DirectorCard[] { new DirectorCard() { spawnCard = beetle, selectionWeight = 2 }, new DirectorCard() { spawnCard = golem, selectionWeight = 2 }, new DirectorCard() { spawnCard = lesserWisp, selectionWeight = 1 } };
       basicMonsters.selectionWeight = 3;
       DirectorCardCategorySelection.Category minibosses = new DirectorCardCategorySelection.Category();
       minibosses.name = "Minibosses";
-      minibosses.cards = new DirectorCard[] { new DirectorCard() { spawnCard = greaterWisp, selectionWeight = 1 }, new DirectorCard() { spawnCard = parent, selectionWeight = 1 }, new DirectorCard() { spawnCard = jailer, selectionWeight = 1 } };
+      minibosses.cards = new DirectorCard[] { new DirectorCard() { spawnCard = greaterWisp, selectionWeight = 1 }, new DirectorCard() { spawnCard = beetleGuard, selectionWeight = 1 } };
       minibosses.selectionWeight = 2;
       DirectorCardCategorySelection.Category champions = new DirectorCardCategorySelection.Category();
       champions.name = "Champions";
-      champions.cards = new DirectorCard[] { new DirectorCard() { spawnCard = impBoss, selectionWeight = 1 }, new DirectorCard() { spawnCard = grovetender, selectionWeight = 1 }, new DirectorCard() { spawnCard = devastator, selectionWeight = 1 } };
+      champions.cards = new DirectorCard[] { new DirectorCard() { spawnCard = beetleQueen, selectionWeight = 1 }, new DirectorCard() { spawnCard = titan, selectionWeight = 1 } };
       champions.selectionWeight = 2;
       DirectorCardCategorySelection.Category special = new DirectorCardCategorySelection.Category();
       special.name = "Special";
@@ -132,19 +133,20 @@ namespace NuxReworks
       DirectorCardCategorySelection.Category[] newCategories = { basicMonsters, minibosses, champions, special };
       return newCategories;
     }
+
     private DirectorCardCategorySelection.Category[] ReworkStageTwo()
     {
       DirectorCardCategorySelection.Category basicMonsters = new DirectorCardCategorySelection.Category();
       basicMonsters.name = "Basic Monsters";
-      basicMonsters.cards = new DirectorCard[] { new DirectorCard() { spawnCard = imp, selectionWeight = 2 }, new DirectorCard() { spawnCard = lemurian, selectionWeight = 2 }, new DirectorCard() { spawnCard = vulture, selectionWeight = 1 } };
+      basicMonsters.cards = new DirectorCard[] { new DirectorCard() { spawnCard = lemurian, selectionWeight = 2 }, new DirectorCard() { spawnCard = blindVermin, selectionWeight = 2 }, new DirectorCard() { spawnCard = blindPest, selectionWeight = 1 } };
       basicMonsters.selectionWeight = 3;
       DirectorCardCategorySelection.Category minibosses = new DirectorCardCategorySelection.Category();
       minibosses.name = "Minibosses";
-      minibosses.cards = new DirectorCard[] { new DirectorCard() { spawnCard = greaterWisp, selectionWeight = 1 }, new DirectorCard() { spawnCard = parent, selectionWeight = 1 }, new DirectorCard() { spawnCard = jailer, selectionWeight = 1 } };
+      minibosses.cards = new DirectorCard[] { new DirectorCard() { spawnCard = greaterWisp, selectionWeight = 1 }, new DirectorCard() { spawnCard = clayTemplar, selectionWeight = 1 }, new DirectorCard() { spawnCard = clayApothecary, selectionWeight = 1 } };
       minibosses.selectionWeight = 2;
       DirectorCardCategorySelection.Category champions = new DirectorCardCategorySelection.Category();
       champions.name = "Champions";
-      champions.cards = new DirectorCard[] { new DirectorCard() { spawnCard = impBoss, selectionWeight = 1 }, new DirectorCard() { spawnCard = grovetender, selectionWeight = 1 }, new DirectorCard() { spawnCard = devastator, selectionWeight = 1 } };
+      champions.cards = new DirectorCard[] { new DirectorCard() { spawnCard = clayDunestrider, selectionWeight = 1 }, new DirectorCard() { spawnCard = wanderingVagrant, selectionWeight = 1 } };
       champions.selectionWeight = 2;
       DirectorCardCategorySelection.Category special = new DirectorCardCategorySelection.Category();
       special.name = "Special";
@@ -153,19 +155,20 @@ namespace NuxReworks
       DirectorCardCategorySelection.Category[] newCategories = { basicMonsters, minibosses, champions, special };
       return newCategories;
     }
+
     private DirectorCardCategorySelection.Category[] ReworkStageThree()
     {
       DirectorCardCategorySelection.Category basicMonsters = new DirectorCardCategorySelection.Category();
       basicMonsters.name = "Basic Monsters";
-      basicMonsters.cards = new DirectorCard[] { new DirectorCard() { spawnCard = imp, selectionWeight = 2 }, new DirectorCard() { spawnCard = lemurian, selectionWeight = 2 }, new DirectorCard() { spawnCard = vulture, selectionWeight = 1 } };
+      basicMonsters.cards = new DirectorCard[] { new DirectorCard() { spawnCard = lemurian, selectionWeight = 2 }, new DirectorCard() { spawnCard = solusProbes, selectionWeight = 2 }, new DirectorCard() { spawnCard = jellyfish, selectionWeight = 1 } };
       basicMonsters.selectionWeight = 3;
       DirectorCardCategorySelection.Category minibosses = new DirectorCardCategorySelection.Category();
       minibosses.name = "Minibosses";
-      minibosses.cards = new DirectorCard[] { new DirectorCard() { spawnCard = greaterWisp, selectionWeight = 1 }, new DirectorCard() { spawnCard = parent, selectionWeight = 1 }, new DirectorCard() { spawnCard = jailer, selectionWeight = 1 } };
+      minibosses.cards = new DirectorCard[] { new DirectorCard() { spawnCard = bighornBison, selectionWeight = 1 }, new DirectorCard() { spawnCard = brassContraption, selectionWeight = 1 }, new DirectorCard() { spawnCard = miniMushrum, selectionWeight = 1 } };
       minibosses.selectionWeight = 2;
       DirectorCardCategorySelection.Category champions = new DirectorCardCategorySelection.Category();
       champions.name = "Champions";
-      champions.cards = new DirectorCard[] { new DirectorCard() { spawnCard = impBoss, selectionWeight = 1 }, new DirectorCard() { spawnCard = grovetender, selectionWeight = 1 }, new DirectorCard() { spawnCard = devastator, selectionWeight = 1 } };
+      champions.cards = new DirectorCard[] { new DirectorCard() { spawnCard = solusControlUnit, selectionWeight = 1 }, new DirectorCard() { spawnCard = magmaWorm, selectionWeight = 1 } };
       champions.selectionWeight = 2;
       DirectorCardCategorySelection.Category special = new DirectorCardCategorySelection.Category();
       special.name = "Special";
@@ -174,19 +177,20 @@ namespace NuxReworks
       DirectorCardCategorySelection.Category[] newCategories = { basicMonsters, minibosses, champions, special };
       return newCategories;
     }
+
     private DirectorCardCategorySelection.Category[] ReworkStageFour()
     {
       DirectorCardCategorySelection.Category basicMonsters = new DirectorCardCategorySelection.Category();
       basicMonsters.name = "Basic Monsters";
-      basicMonsters.cards = new DirectorCard[] { new DirectorCard() { spawnCard = imp, selectionWeight = 2 }, new DirectorCard() { spawnCard = lemurian, selectionWeight = 2 }, new DirectorCard() { spawnCard = vulture, selectionWeight = 1 } };
+      basicMonsters.cards = new DirectorCard[] { new DirectorCard() { spawnCard = imp, selectionWeight = 2 }, new DirectorCard() { spawnCard = vulture, selectionWeight = 2 }, new DirectorCard() { spawnCard = alphaConstruct, selectionWeight = 1 } };
       basicMonsters.selectionWeight = 3;
       DirectorCardCategorySelection.Category minibosses = new DirectorCardCategorySelection.Category();
       minibosses.name = "Minibosses";
-      minibosses.cards = new DirectorCard[] { new DirectorCard() { spawnCard = greaterWisp, selectionWeight = 1 }, new DirectorCard() { spawnCard = parent, selectionWeight = 1 }, new DirectorCard() { spawnCard = jailer, selectionWeight = 1 } };
+      minibosses.cards = new DirectorCard[] { new DirectorCard() { spawnCard = elderLemurian, selectionWeight = 1 }, new DirectorCard() { spawnCard = gup, selectionWeight = 1 }, new DirectorCard() { spawnCard = brassContraption, selectionWeight = 1 } };
       minibosses.selectionWeight = 2;
       DirectorCardCategorySelection.Category champions = new DirectorCardCategorySelection.Category();
       champions.name = "Champions";
-      champions.cards = new DirectorCard[] { new DirectorCard() { spawnCard = impBoss, selectionWeight = 1 }, new DirectorCard() { spawnCard = grovetender, selectionWeight = 1 }, new DirectorCard() { spawnCard = devastator, selectionWeight = 1 } };
+      champions.cards = new DirectorCard[] { new DirectorCard() { spawnCard = impBoss, selectionWeight = 1 }, new DirectorCard() { spawnCard = xiConstruct, selectionWeight = 1 }, new DirectorCard() { spawnCard = grovetender, selectionWeight = 1 } };
       champions.selectionWeight = 2;
       DirectorCardCategorySelection.Category special = new DirectorCardCategorySelection.Category();
       special.name = "Special";
@@ -195,19 +199,20 @@ namespace NuxReworks
       DirectorCardCategorySelection.Category[] newCategories = { basicMonsters, minibosses, champions, special };
       return newCategories;
     }
+
     private DirectorCardCategorySelection.Category[] ReworkStageFive()
     {
       DirectorCardCategorySelection.Category basicMonsters = new DirectorCardCategorySelection.Category();
       basicMonsters.name = "Basic Monsters";
-      basicMonsters.cards = new DirectorCard[] { new DirectorCard() { spawnCard = imp, selectionWeight = 2 }, new DirectorCard() { spawnCard = lemurian, selectionWeight = 2 }, new DirectorCard() { spawnCard = vulture, selectionWeight = 1 } };
+      basicMonsters.cards = new DirectorCard[] { new DirectorCard() { spawnCard = imp, selectionWeight = 2 }, new DirectorCard() { spawnCard = vulture, selectionWeight = 2 }, new DirectorCard() { spawnCard = larva, selectionWeight = 1 } };
       basicMonsters.selectionWeight = 3;
       DirectorCardCategorySelection.Category minibosses = new DirectorCardCategorySelection.Category();
       minibosses.name = "Minibosses";
-      minibosses.cards = new DirectorCard[] { new DirectorCard() { spawnCard = greaterWisp, selectionWeight = 1 }, new DirectorCard() { spawnCard = parent, selectionWeight = 1 }, new DirectorCard() { spawnCard = jailer, selectionWeight = 1 } };
+      minibosses.cards = new DirectorCard[] { new DirectorCard() { spawnCard = parent, selectionWeight = 1 }, new DirectorCard() { spawnCard = elderLemurian, selectionWeight = 1 }, new DirectorCard() { spawnCard = brassContraption, selectionWeight = 1 } };
       minibosses.selectionWeight = 2;
       DirectorCardCategorySelection.Category champions = new DirectorCardCategorySelection.Category();
       champions.name = "Champions";
-      champions.cards = new DirectorCard[] { new DirectorCard() { spawnCard = impBoss, selectionWeight = 1 }, new DirectorCard() { spawnCard = grovetender, selectionWeight = 1 }, new DirectorCard() { spawnCard = devastator, selectionWeight = 1 } };
+      champions.cards = new DirectorCard[] { new DirectorCard() { spawnCard = grandparent, selectionWeight = 1 }, new DirectorCard() { spawnCard = electricWorm, selectionWeight = 1 }, new DirectorCard() { spawnCard = scav, selectionWeight = 1 } };
       champions.selectionWeight = 2;
       DirectorCardCategorySelection.Category special = new DirectorCardCategorySelection.Category();
       special.name = "Special";
