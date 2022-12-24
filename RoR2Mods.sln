@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Metadata", "Metadata", "{3A
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NuxReworks", "NuxReworks\NuxReworks.csproj", "{07F0E577-D62C-463D-94EB-6F01C056DFFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AugmentedStages", "AugmentedStages\AugmentedStages.csproj", "{07F0E577-D62C-463D-94EB-6F01C056DFFF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

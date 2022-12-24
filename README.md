@@ -1,8 +1,4 @@
-# NuxReworks
-
-Major reworks where I feel the game falls flat. Currently reworks bosses and stage monsters.
-
-## Stage Rework
+# Augmented Stages
 
 Reworks monsters to spawn based on stage number rather than stage (looping just repeats, might do something with loops idrc).
 
@@ -30,61 +26,6 @@ Reworks monsters to spawn based on stage number rather than stage (looping just 
   - **Monsters:** Imps, Larva, Alloy Vulture
   - **Minibosses:** Parent, Elder Lemurian, Brass Contraption
   - **Bosses:** Grandparent, Overloading Worm, Scav
-
-## Boss Reworks
-
-Mini boss rush at the end of each stage. Removes tricorn. Gives bosses a "second phase" where if their HP drops below 50% they are immune for 10 seconds and HP stays at 50%
-
-- **Beetle Queen**
-  - Revival of Moffein's Beetle Queen Plus and FMRadio11's Beetle Queen Buff
-
-- **Stone Titan**
-  - Laser does 1/2 damage but it slows (mvmt AND attk spd?)
-  - Fires laser bolts during laser
-  - Tracking fist that changes pattern.
-
-- **Wandering Vagrant**
-  - More movement speed
-  - Has a tesla coil
-  - Orbs: increased spawn frequency
-
-- **Clay Dunestrider**
-  - No Change
-
-- **Solus Control Unit**
-  - Fires 2 extra lines of primary
-  - Summoning is faster
-  - Weaker AWU shield (a LOT weaker)
-
-- **Magma Worm**
-  - Reworks movement to something similar to RoR1
-  - Focuses players as enemies
-  - Breaths fire
-
-- **Imp Overlord**
-  - Fires pattern of imp spikes
-  - Increased AoE of Blitz (maybe fires random spikes outwards?)
-  - Faster blink and fires explosion of spikes when arriving
-
-- **Xi Construct**
-  - No Change
-
-- **Grovetender**
-  - Chains are now tracking in a channel state
-  - Wisp Barrage spawns more and has faster wisps
-
-- **Grandparent**
-  - Revives 1 or all abilities: PortalFist, SpiritPull, PortalJump
-  - Removes boulder throw
-  - Maybe enhances grav orb to stack burn and nerfs pull
-
-- **Overloading Worm**
-  - Reworks movement to something similar to RoR1
-  - Focuses players as enemies
-  - Breaths lightning
-
-- **Scavenger**
-  - No Change
 
 ## Changelog
 

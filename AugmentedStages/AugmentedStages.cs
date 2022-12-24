@@ -3,9 +3,11 @@ using RoR2;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 
-namespace NuxReworks
+namespace AugmentedStages
 {
-  public class StageReworks
+  [BepInPlugin("com.Nuxlar.AugmentedStages", "AugmentedStages", "1.0.0")]
+
+  public class AugmentedStages : BaseUnityPlugin
   {
     // Spawn Cards
     // Beetle Family
@@ -91,6 +93,11 @@ namespace NuxReworks
     // Stage 5
     static DirectorCardCategorySelection meadowsMonsters = Addressables.LoadAssetAsync<DirectorCardCategorySelection>("RoR2/Base/skymeadow/dccsSkyMeadowMonstersDLC1.asset").WaitForCompletion();
 
+    public void Awake()
+    {
+      ReworkStages();
+    }
+
     public void ReworkStages()
     {
       roostMonsters.categories = ReworkStageOne();
@@ -116,7 +123,7 @@ namespace NuxReworks
     {
       DirectorCardCategorySelection.Category basicMonsters = new DirectorCardCategorySelection.Category();
       basicMonsters.name = "Basic Monsters";
-      basicMonsters.cards = new DirectorCard[] { new DirectorCard() { spawnCard = beetle, selectionWeight = 2 }, new DirectorCard() { spawnCard = golem, selectionWeight = 2 }, new DirectorCard() { spawnCard = lesserWisp, selectionWeight = 1 } };
+      basicMonsters.cards = new DirectorCard[] { new DirectorCard() { spawnCard = beetle, selectionWeight = 2 }, new DirectorCard() { spawnCard = lesserWisp, selectionWeight = 2 }, new DirectorCard() { spawnCard = golem, selectionWeight = 1 } };
       basicMonsters.selectionWeight = 3;
       DirectorCardCategorySelection.Category minibosses = new DirectorCardCategorySelection.Category();
       minibosses.name = "Minibosses";
