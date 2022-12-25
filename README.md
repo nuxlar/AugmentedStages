@@ -18,13 +18,13 @@ Icon is from betawho on Reddit
 - ***Siphoned Forest***
   - **Monsters:** Lemurian, Lesser Wisp, Jellyfish
   - **Minibosses:** Golem, Greater Wisp
-  - **Bosses:** Beetle Queen, Wandering Vagrant, Titan
+  - **Bosses:** Wandering Vagrant, Titan
 
 ## Stage 2
 - ***Abandoned Aqueduct***
   - **Monsters:** Lemurian, Blind Pest, Jellyfish
   - **Minibosses:** Beetle Guard, Greater Wisp, Clay Apothecary, Clay Templar
-  - **Bosses:** Clay Dunestrider, Wandering Vagrant, Magma Worm
+  - **Bosses:** Clay Dunestrider, Magma Worm
 
 - ***Wetland Aspect***
   - **Monsters:** Lemurian, Beetle, Blind Pest, Jellyfish
@@ -38,25 +38,25 @@ Icon is from betawho on Reddit
 
 ## Stage 3
 - ***Rallypoint Delta***
-  - **Monsters:** Imp, Blind Vermin, Solus Probe,
+  - **Monsters:** Lemurian, Blind Vermin, Blind Pest,
   - **Minibosses:** Gup, Greater Wisp, Bison
-  - **Bosses:** Imp Overlord, Magma Worm, Solus Control Unit
+  - **Bosses:** Magma Worm, Grovetender
 
 - ***Scorched Acres***
-  - **Monsters:** Lemurian, Blind Pest, Vulture, Imp
+  - **Monsters:** Lemurian, Blind Pest, Imp
   - **Minibosses:** Clay Templar, Gup, Bell
-  - **Bosses:** Imp Overlord, Dunestrider, Grovetender
+  - **Bosses:** Xi Construct, Grovetender
 
 - ***Sulfur Pools***
   - **Monsters:** Alpha Construct, Lemurians, Blind Vermin, Blind Pest
   - **Minibosses:** Clay Templar, Clay Apothecary, Greater Wisp
-  - **Bosses:** Xi Construct, Clay Dunestrider
+  - **Bosses:** Xi Construct, Magma Worm
 
 ## Stage 4
 - ***Abyssal Depths***
-  - **Monsters:** Larva, Blind Pest, Imp
+  - **Monsters:** Larva, Solus Probe, Imp
   - **Minibosses:** Bell, Gup, Elder Lemurian
-  - **Bosses:** Imp Overlord, Magma Worm
+  - **Bosses:** Imp Overlord, Solus Control Unit
 
 - ***Sundered Grove***
   - **Monsters:** Solus Probe, Larva, MiniMushroom
@@ -72,7 +72,7 @@ Icon is from betawho on Reddit
 - ***Sky Meadows***
   - **Monsters:** Imp, Solus Probe, Bell, Vulture
   - **Minibosses:** Jailer, Parent, Gup, Elder Lemurian
-  - **Bosses:** Solus Control Unit, Imp Overlord, Grandparent, Electric Worm
+  - **Bosses:** Imp Overlord, Grandparent, Scavenger, Electric Worm
 
 ## Changelog
 
@@ -91,3 +91,9 @@ Icon is from betawho on Reddit
 
 **1.0.0**
 * Release
+BQ, ST, WV | DS, IO, MW, XC | SCU, GP, GT, OW, S
+STAGE 1: Beetle Queen, Stone Titan, Wandering Vagrant
+STAGE 2: Wandering Vagrant, Clay Dunestrider, Magma Worm
+STAGE 3: Magma Worm, Grovetender, Xi Construct
+STAGE 4: Grovetender, Imp Overlord, Solus Control Unit
+STAGE 5: Imp Overlord, Grandparent, Overloading Worm, Scavenger

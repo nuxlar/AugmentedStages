@@ -16,7 +16,7 @@ namespace AugmentedStages
       minibosses.selectionWeight = 2;
       DirectorCardCategorySelection.Category champions = new DirectorCardCategorySelection.Category();
       champions.name = "Champions";
-      champions.cards = new DirectorCard[] { new DirectorCard() { spawnCard = AugmentedStages.clayDunestrider, selectionWeight = 2 }, new DirectorCard() { spawnCard = AugmentedStages.wanderingVagrant, selectionWeight = 2 }, new DirectorCard() { spawnCard = AugmentedStages.magmaWorm, selectionWeight = 2 } };
+      champions.cards = new DirectorCard[] { new DirectorCard() { spawnCard = AugmentedStages.clayDunestrider, selectionWeight = 2 }, new DirectorCard() { spawnCard = AugmentedStages.magmaWorm, selectionWeight = 2 } };
       champions.selectionWeight = 2;
       DirectorCardCategorySelection.Category special = new DirectorCardCategorySelection.Category();
       special.name = "Special";

@@ -16,7 +16,7 @@ namespace AugmentedStages
       minibosses.selectionWeight = 2;
       DirectorCardCategorySelection.Category champions = new DirectorCardCategorySelection.Category();
       champions.name = "Champions";
-      champions.cards = new DirectorCard[] { new DirectorCard() { spawnCard = AugmentedStages.solusControlUnit, selectionWeight = 2 }, new DirectorCard() { spawnCard = AugmentedStages.impBoss, selectionWeight = 2 }, new DirectorCard() { spawnCard = AugmentedStages.grandparent, selectionWeight = 2 }, new DirectorCard() { spawnCard = AugmentedStages.electricWorm, selectionWeight = 2 } };
+      champions.cards = new DirectorCard[] { new DirectorCard() { spawnCard = AugmentedStages.impBoss, selectionWeight = 2 }, new DirectorCard() { spawnCard = AugmentedStages.grandparent, selectionWeight = 2 }, new DirectorCard() { spawnCard = AugmentedStages.electricWorm, selectionWeight = 2 }, new DirectorCard() { spawnCard = AugmentedStages.scav, selectionWeight = 1 } };
       champions.selectionWeight = 2;
       DirectorCardCategorySelection.Category special = new DirectorCardCategorySelection.Category();
       special.name = "Special";

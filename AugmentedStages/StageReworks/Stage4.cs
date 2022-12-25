@@ -8,7 +8,7 @@ namespace AugmentedStages
     {
       DirectorCardCategorySelection.Category basicMonsters = new DirectorCardCategorySelection.Category();
       basicMonsters.name = "Basic Monsters";
-      basicMonsters.cards = new DirectorCard[] { new DirectorCard() { spawnCard = AugmentedStages.imp, selectionWeight = 3 }, new DirectorCard() { spawnCard = AugmentedStages.blindPest, selectionWeight = 3 }, new DirectorCard() { spawnCard = AugmentedStages.larva, selectionWeight = 3 } };
+      basicMonsters.cards = new DirectorCard[] { new DirectorCard() { spawnCard = AugmentedStages.imp, selectionWeight = 3 }, new DirectorCard() { spawnCard = AugmentedStages.solusProbes, selectionWeight = 3 }, new DirectorCard() { spawnCard = AugmentedStages.larva, selectionWeight = 3 } };
       basicMonsters.selectionWeight = 3;
       DirectorCardCategorySelection.Category minibosses = new DirectorCardCategorySelection.Category();
       minibosses.name = "Minibosses";
@@ -16,7 +16,7 @@ namespace AugmentedStages
       minibosses.selectionWeight = 3;
       DirectorCardCategorySelection.Category champions = new DirectorCardCategorySelection.Category();
       champions.name = "Champions";
-      champions.cards = new DirectorCard[] { new DirectorCard() { spawnCard = AugmentedStages.impBoss, selectionWeight = 2 }, new DirectorCard() { spawnCard = AugmentedStages.magmaWorm, selectionWeight = 2 }, new DirectorCard() { spawnCard = AugmentedStages.electricWorm, selectionWeight = 2 } };
+      champions.cards = new DirectorCard[] { new DirectorCard() { spawnCard = AugmentedStages.impBoss, selectionWeight = 2 }, new DirectorCard() { spawnCard = AugmentedStages.solusControlUnit, selectionWeight = 2 } };
       champions.selectionWeight = 2;
       DirectorCardCategorySelection.Category special = new DirectorCardCategorySelection.Category();
       special.name = "Special";
