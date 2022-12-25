@@ -11,14 +11,14 @@ Icon is from betawho on Reddit
   - **Bosses:** Beetle Queen, Stone Titan
 
 - ***Golem Plains***
-  - **Monsters:** Beetle, Lesser Wisp, Jellyfish
+  - **Monsters:** Beetle, Lesser Wisp, Lemurian
   - **Minibosses:** Golem, Greater Wisp
   - **Bosses:** Wandering Vagrant, Beetle Queen
 
 - ***Siphoned Forest***
-  - **Monsters:** Blind Vermin, Lemurian, Lesser Wisp, Jellyfish
-  - **Minibosses:** Golem, Beetle Guard, Greater Wisp
-  - **Bosses:** Wandering Vagrant, Titan
+  - **Monsters:** Lemurian, Lesser Wisp, Jellyfish
+  - **Minibosses:** Golem, Greater Wisp
+  - **Bosses:** Beetle Queen, Wandering Vagrant, Titan
 
 ## Stage 2
 - ***Abandoned Aqueduct***
@@ -75,6 +75,9 @@ Icon is from betawho on Reddit
   - **Bosses:** Solus Control Unit, Imp Overlord, Grandparent, Electric Worm
 
 ## Changelog
+
+**1.1.2**
+* Balancing/Updates
 
 **1.1.1**
 * I didnt change the spawncard when copy pasting so it was mostly vultures
