@@ -22,14 +22,14 @@ Icon is from betawho on Reddit
 
 ## Stage 2
 - ***Abandoned Aqueduct***
-  - **Monsters:** Blind Vermin, Lemurian, Blind Pest
-  - **Minibosses:** Beetle Guard, Greater Wisp, Apothecary, Templar
-  - **Bosses:** Beetle Queen, Stone Titan, Dunestrider
+  - **Monsters:** Lemurian, Blind Pest, Jellyfish
+  - **Minibosses:** Beetle Guard, Greater Wisp, Clay Apothecary, Clay Templar
+  - **Bosses:** Clay Dunestrider, Wandering Vagrant, Magma Worm
 
 - ***Wetland Aspect***
-  - **Monsters:** Lemurian, Blind Vermin, Blind Pest, Jellyfish
+  - **Monsters:** Lemurian, Beetle, Blind Pest, Jellyfish
   - **Minibosses:** Golem, Bell, Beetle Guard
-  - **Bosses:** Wandering Vagrant, Titan
+  - **Bosses:** Wandering Vagrant, Magma Worm
 
 - ***Aphleian Sanctuary***
   - **Monsters:** Lemurian, Blind Vermin, Blind Pest, Jellyfish

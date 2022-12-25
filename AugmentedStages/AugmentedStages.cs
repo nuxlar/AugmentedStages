@@ -141,7 +141,7 @@ namespace AugmentedStages
 
 // Plains
 // Monsters
-// Lemurian 4, Lesser Wisp 4, Alpha Construct 4, Hermit Crab 4,Beetle 4, Jellyfish 4
+// Lemurian 4, Lesser Wisp 4, Beetle 4, Alpha Construct 4, Hermit Crab 4, Jellyfish 4
 // Minibosses
 // Golem 2, Greater Wisp 2
 // Champions
