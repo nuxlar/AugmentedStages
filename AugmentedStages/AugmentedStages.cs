@@ -1,11 +1,10 @@
 using BepInEx;
 using RoR2;
-using UnityEngine;
 using UnityEngine.AddressableAssets;
 
 namespace AugmentedStages
 {
-  [BepInPlugin("com.Nuxlar.AugmentedStages", "AugmentedStages", "1.0.0")]
+  [BepInPlugin("com.Nuxlar.AugmentedStages", "AugmentedStages", "1.1.1")]
 
   public class AugmentedStages : BaseUnityPlugin
   {
