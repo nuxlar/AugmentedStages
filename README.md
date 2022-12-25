@@ -6,18 +6,18 @@ Icon is from betawho on Reddit
 
 ## Stage 1
 - ***Distant Roost***
-  - **Monsters:** Lemurian, Lesser Wisp, Beetle, Jellyfish
-  - **Minibosses:** Beetle Guard, Greater Wisp
+  - **Monsters:** Beetle, Lesser Wisp, Alpha Construct
+  - **Minibosses:** Golem, Greater Wisp
   - **Bosses:** Beetle Queen, Stone Titan
 
 - ***Golem Plains***
-  - **Monsters:** Lemurian, Lesser Wisp, Beetle, Jellyfish
-  - **Minibosses:** Beetle Guard, Greater Wisp
+  - **Monsters:** Beetle, Lesser Wisp, Jellyfish
+  - **Minibosses:** Golem, Greater Wisp
   - **Bosses:** Wandering Vagrant, Beetle Queen
 
 - ***Siphoned Forest***
-  - **Monsters:** Lemurian, Lesser Wisp, Beetle, Jellyfish
-  - **Minibosses:** Golem, Greater Wisp
+  - **Monsters:** Blind Vermin, Lemurian, Lesser Wisp, Jellyfish
+  - **Minibosses:** Golem, Beetle Guard, Greater Wisp
   - **Bosses:** Wandering Vagrant, Titan
 
 ## Stage 2
@@ -75,6 +75,10 @@ Icon is from betawho on Reddit
   - **Bosses:** Solus Control Unit, Imp Overlord, Grandparent, Electric Worm
 
 ## Changelog
+
+**1.1.1**
+* I didnt change the spawncard when copy pasting so it was mostly vultures
+* Kill me
 
 **1.1.0**
 * Switches the tier stuff to just mixing up the spawns for each stage

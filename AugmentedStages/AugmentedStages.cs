@@ -50,22 +50,22 @@ namespace AugmentedStages
     public static SpawnCard solusControlUnit = Addressables.LoadAssetAsync<SpawnCard>("RoR2/Base/RoboBallBoss/cscRoboBallBoss.asset").WaitForCompletion();
 
     // Jelly Family
-    public static SpawnCard jellyfish = Addressables.LoadAssetAsync<SpawnCard>("RoR2/Base/Vulture/cscVulture.asset").WaitForCompletion();
-    public static SpawnCard wanderingVagrant = Addressables.LoadAssetAsync<SpawnCard>("RoR2/Base/Vulture/cscVulture.asset").WaitForCompletion();
+    public static SpawnCard jellyfish = Addressables.LoadAssetAsync<SpawnCard>("RoR2/Base/Jellyfish/cscJellyfish.asset").WaitForCompletion();
+    public static SpawnCard wanderingVagrant = Addressables.LoadAssetAsync<SpawnCard>("RoR2/Base/Vagrant/cscVagrant.asset").WaitForCompletion();
 
     // Constructs
-    public static SpawnCard alphaConstruct = Addressables.LoadAssetAsync<SpawnCard>("RoR2/Base/Vulture/cscVulture.asset").WaitForCompletion();
-    public static SpawnCard xiConstruct = Addressables.LoadAssetAsync<SpawnCard>("RoR2/Base/Vulture/cscVulture.asset").WaitForCompletion();
+    public static SpawnCard alphaConstruct = Addressables.LoadAssetAsync<SpawnCard>("RoR2/DLC1/MajorAndMinorConstruct/cscMinorConstruct.asset").WaitForCompletion();
+    public static SpawnCard xiConstruct = Addressables.LoadAssetAsync<SpawnCard>("RoR2/DLC1/MajorAndMinorConstruct/cscMegaConstruct.asset").WaitForCompletion();
 
     // Misc
     public static SpawnCard larva = Addressables.LoadAssetAsync<SpawnCard>("RoR2/DLC1/AcidLarva/cscAcidLarva.asset").WaitForCompletion();
-    public static SpawnCard gup = Addressables.LoadAssetAsync<SpawnCard>("RoR2/Base/Vulture/cscVulture.asset").WaitForCompletion();
-    public static SpawnCard brassContraption = Addressables.LoadAssetAsync<SpawnCard>("RoR2/Base/Vulture/cscVulture.asset").WaitForCompletion();
-    public static SpawnCard bighornBison = Addressables.LoadAssetAsync<SpawnCard>("RoR2/Base/Vulture/cscVulture.asset").WaitForCompletion();
-    public static SpawnCard miniMushrum = Addressables.LoadAssetAsync<SpawnCard>("RoR2/Base/Vulture/cscVulture.asset").WaitForCompletion();
+    public static SpawnCard gup = Addressables.LoadAssetAsync<SpawnCard>("RoR2/DLC1/Gup/cscGupBody.asset").WaitForCompletion();
+    public static SpawnCard brassContraption = Addressables.LoadAssetAsync<SpawnCard>("RoR2/Base/Bell/cscBell.asset").WaitForCompletion();
+    public static SpawnCard bighornBison = Addressables.LoadAssetAsync<SpawnCard>("RoR2/Base/Bison/cscBison.asset").WaitForCompletion();
+    public static SpawnCard miniMushrum = Addressables.LoadAssetAsync<SpawnCard>("RoR2/Base/MiniMushroom/cscMiniMushroom.asset").WaitForCompletion();
     public static SpawnCard vulture = Addressables.LoadAssetAsync<SpawnCard>("RoR2/Base/Vulture/cscVulture.asset").WaitForCompletion();
-    public static SpawnCard magmaWorm = Addressables.LoadAssetAsync<SpawnCard>("RoR2/Base/Vulture/cscVulture.asset").WaitForCompletion();
-    public static SpawnCard electricWorm = Addressables.LoadAssetAsync<SpawnCard>("RoR2/Base/Vulture/cscVulture.asset").WaitForCompletion();
+    public static SpawnCard magmaWorm = Addressables.LoadAssetAsync<SpawnCard>("RoR2/Base/MagmaWorm/cscMagmaWorm.asset").WaitForCompletion();
+    public static SpawnCard electricWorm = Addressables.LoadAssetAsync<SpawnCard>("RoR2/Base/ElectricWorm/cscElectricWorm.asset").WaitForCompletion();
     public static SpawnCard scav = Addressables.LoadAssetAsync<SpawnCard>("RoR2/Base/Scav/cscScav.asset").WaitForCompletion();
     public static SpawnCard jailer = Addressables.LoadAssetAsync<SpawnCard>("RoR2/DLC1/VoidJailer/cscVoidJailer.asset").WaitForCompletion();
     public static SpawnCard reaver = Addressables.LoadAssetAsync<SpawnCard>("RoR2/Base/Nullifier/cscNullifier.asset").WaitForCompletion();
