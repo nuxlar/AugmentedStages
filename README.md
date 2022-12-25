@@ -91,9 +91,3 @@ Icon is from betawho on Reddit
 
 **1.0.0**
 * Release
-BQ, ST, WV | DS, IO, MW, XC | SCU, GP, GT, OW, S
-STAGE 1: Beetle Queen, Stone Titan, Wandering Vagrant
-STAGE 2: Wandering Vagrant, Clay Dunestrider, Magma Worm
-STAGE 3: Magma Worm, Grovetender, Xi Construct
-STAGE 4: Grovetender, Imp Overlord, Solus Control Unit
-STAGE 5: Imp Overlord, Grandparent, Overloading Worm, Scavenger
