@@ -22,13 +22,13 @@ Icon is from betawho on Reddit
 
 ## Stage 2
 - ***Abandoned Aqueduct***
-  - **Monsters:** Lemurian, Blind Pest, Jellyfish
+  - **Monsters:** Lemurian, Blind Pest, Vermin
   - **Minibosses:** Beetle Guard, Greater Wisp, Clay Apothecary, Clay Templar
   - **Bosses:** Clay Dunestrider, Magma Worm
 
 - ***Wetland Aspect***
-  - **Monsters:** Lemurian, Beetle, Blind Pest, Jellyfish
-  - **Minibosses:** Golem, Bell, Beetle Guard
+  - **Monsters:** Lemurian, Beetle, Lesser Wisp, Jellyfish
+  - **Minibosses:** Golem, Greater Wisp, Beetle Guard
   - **Bosses:** Wandering Vagrant, Magma Worm
 
 - ***Aphleian Sanctuary***
@@ -43,7 +43,7 @@ Icon is from betawho on Reddit
   - **Bosses:** Magma Worm, Grovetender
 
 - ***Scorched Acres***
-  - **Monsters:** Lemurian, Blind Pest, Imp
+  - **Monsters:** Blind Vermin, Blind Pest, Imp
   - **Minibosses:** Clay Templar, Gup, Bell
   - **Bosses:** Xi Construct, Grovetender
 
@@ -75,6 +75,12 @@ Icon is from betawho on Reddit
   - **Bosses:** Imp Overlord, Grandparent, Scavenger, Electric Worm
 
 ## Changelog
+
+**1.1.3**
+* "Fixed" Scavs on stage 4
+* Aqueduct changes (Jellyfish -> Vermin)
+* Wetland changes (Brass Contraption -> Greater Wisp) (Pest -> Lesser Wisp)
+* Scorched Acres changes (Lemurians -> Blind Vermin)
 
 **1.1.2**
 * Balancing/Updates

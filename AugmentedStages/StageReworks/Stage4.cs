@@ -18,11 +18,7 @@ namespace AugmentedStages
       champions.name = "Champions";
       champions.cards = new DirectorCard[] { new DirectorCard() { spawnCard = AugmentedStages.impBoss, selectionWeight = 2 }, new DirectorCard() { spawnCard = AugmentedStages.solusControlUnit, selectionWeight = 2 } };
       champions.selectionWeight = 2;
-      DirectorCardCategorySelection.Category special = new DirectorCardCategorySelection.Category();
-      special.name = "Special";
-      special.cards = new DirectorCard[] { new DirectorCard() { spawnCard = AugmentedStages.scav, selectionWeight = 1 } };
-      special.selectionWeight = 1;
-      DirectorCardCategorySelection.Category[] newCategories = { basicMonsters, minibosses, champions, special };
+      DirectorCardCategorySelection.Category[] newCategories = { basicMonsters, minibosses, champions };
       return newCategories;
     }
 
@@ -62,11 +58,7 @@ namespace AugmentedStages
       champions.name = "Champions";
       champions.cards = new DirectorCard[] { new DirectorCard() { spawnCard = AugmentedStages.solusControlUnit, selectionWeight = 2 }, new DirectorCard() { spawnCard = AugmentedStages.impBoss, selectionWeight = 2 } };
       champions.selectionWeight = 2;
-      DirectorCardCategorySelection.Category special = new DirectorCardCategorySelection.Category();
-      special.name = "Special";
-      special.cards = new DirectorCard[] { new DirectorCard() { spawnCard = AugmentedStages.scav, selectionWeight = 1 } };
-      special.selectionWeight = 1;
-      DirectorCardCategorySelection.Category[] newCategories = { basicMonsters, minibosses, champions, special };
+      DirectorCardCategorySelection.Category[] newCategories = { basicMonsters, minibosses, champions };
       return newCategories;
     }
   }

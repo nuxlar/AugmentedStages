@@ -1,6 +1,6 @@
 ﻿{
 	"name": "AugmentedStages",
-	"version_number": "1.1.2",
+	"version_number": "1.1.3",
 	"website_url": "https://github.com/nuxlar/AugmentedStages",
 	"description": "Changes monster stage spawns",
 	"dependencies": [

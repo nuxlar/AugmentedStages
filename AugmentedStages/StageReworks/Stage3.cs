@@ -30,7 +30,7 @@ namespace AugmentedStages
     {
       DirectorCardCategorySelection.Category basicMonsters = new DirectorCardCategorySelection.Category();
       basicMonsters.name = "Basic Monsters";
-      basicMonsters.cards = new DirectorCard[] { new DirectorCard() { spawnCard = AugmentedStages.lemurian, selectionWeight = 3 }, new DirectorCard() { spawnCard = AugmentedStages.blindPest, selectionWeight = 3 }, new DirectorCard() { spawnCard = AugmentedStages.imp, selectionWeight = 3 } };
+      basicMonsters.cards = new DirectorCard[] { new DirectorCard() { spawnCard = AugmentedStages.blindVermin, selectionWeight = 3 }, new DirectorCard() { spawnCard = AugmentedStages.blindPest, selectionWeight = 3 }, new DirectorCard() { spawnCard = AugmentedStages.imp, selectionWeight = 3 } };
       basicMonsters.selectionWeight = 3;
       DirectorCardCategorySelection.Category minibosses = new DirectorCardCategorySelection.Category();
       minibosses.name = "Minibosses";

@@ -4,7 +4,7 @@ using UnityEngine.AddressableAssets;
 
 namespace AugmentedStages
 {
-  [BepInPlugin("com.Nuxlar.AugmentedStages", "AugmentedStages", "1.1.2")]
+  [BepInPlugin("com.Nuxlar.AugmentedStages", "AugmentedStages", "1.1.3")]
 
   public class AugmentedStages : BaseUnityPlugin
   {
